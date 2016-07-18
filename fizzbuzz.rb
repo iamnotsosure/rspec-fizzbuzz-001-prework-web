@@ -5,9 +5,12 @@ def fizzbuzz(int)
     "Fizz" # Go fizz
   elsif int % 5 == 0
     "Buzz"
+  else
+    return nil
   end
 end
 
 fizzbuzz(3)
 fizzbuzz(5)
 fizzbuzz(15)
+fizzbuzz(4)
